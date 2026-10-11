@@ -1,0 +1,105 @@
+h3{
+   background-color: black !important;
+}
+*{
+   font-family: 'Courier New',;
+}
+h1 ,h3{
+   color: black;
+}
+
+#login {
+   background-color: green;
+   color: white;
+}
+#signup{
+   background-color: red;
+   color: white;
+}
+
+.upvote{
+   background-color: green;
+   color: white;
+}
+
+/* descendant selector */
+
+.post a{
+
+   color: white;
+   background-color: black;
+}
+
+nav ul li a{
+   color: red;
+}
+
+p  + h3{
+   text-decoration: underline;
+}
+
+.upvote + button{
+   color: white;
+   background-color: green;
+}
+
+div p{
+   color: blue;
+}
+
+div > input{
+   background-color:black;
+}
+
+#myId p{
+   color: green;
+}
+
+input[type="text"]{
+   color: red;
+}
+
+input[type="password"]{
+   color:black;
+}
+
+input[type]{
+   background-color:yellowgreen;
+}
+
+button:hover {
+   background-color: black;
+   color: white;
+}
+
+h3:hover{
+   text-decoration: overline;
+}
+
+button:active{
+   background-color: hotpink;
+   color: black;
+}
+
+p:active{
+   font-weight: bold;
+   color: red;
+}
+
+input[type="radio"]:checked + label{
+   color: red;
+   font-weight: bold;
+}
+
+h1::first-letter{
+   color:red;
+}
+
+h3 {
+   background-color: yellow;
+}
+
+h3{
+   background-color:black;
+   color: white;
+} 
