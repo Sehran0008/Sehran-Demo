@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  margin:10;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background:#011002;
+}
+
+.car{
+  position:relative;
+  width:300px;
+  height:200px;
+}
+
+.body{
+  width:300px;
+  height:70px;
+  background:rgb(182, 3, 87);
+  border-radius:15px;
+  position:absolute;
+  bottom:20px;
+}
+
+.top{
+  width:150px;
+  height:50px;
+  background:rgb(33, 4, 153);
+  position:absolute;
+  left:75px;
+  bottom:60px;
+  border-radius:20px 20px 0 0;
+}
+
+.wheel{
+  width:50px;
+  height:50px;
+  background:rgb(222, 3, 3);
+  border-radius:50%;
+  position:absolute;
+  bottom:0;
+}
+
+.left{ left:40px; }
+.right{ right:40px; }
+</style>
+</head>
+
+<body>
+
+<div class="car">
+  <div class="top"></div>
+  <div class="body"></div>
+  <div class="wheel left"></div>
+  <div class="wheel right"></div>
+</div>
+
+</body>
+</html>
