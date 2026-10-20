@@ -1,8 +1,8 @@
 # Sehran-Demo
 This is a Demo for Git &amp; Github class.
 
-# Teacher
+# Teacher1
  S Khapra
 
- # Student
+ # Student1
  Sehran student
